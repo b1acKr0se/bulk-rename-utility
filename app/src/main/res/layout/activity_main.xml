@@ -7,9 +7,39 @@
     android:layout_height="match_parent"
     tools:context="io.b1ackr0se.bulkrenameutility.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/rename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/rename"
+            android:theme="@style/WhiteButtonStyle"/>
+
+        <Button
+            android:id="@+id/create_rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="@string/create_rules"
+            android:theme="@style/WhiteButtonStyle"/>
+
+        <Button
+            android:id="@+id/saved_rules"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="@string/saved_rules"
+            android:theme="@style/WhiteButtonStyle"/>
+
+    </LinearLayout>
+
 
 </FrameLayout>

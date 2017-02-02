@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BulkRenameUtility</string>
+
+    <string name="rename">Rename</string>
+    <string name="saved_rules">Saved Rules</string>
+    <string name="create_rules">Create Rules</string>
 </resources>
