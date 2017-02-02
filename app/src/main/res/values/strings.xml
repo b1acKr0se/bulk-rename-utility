@@ -3,5 +3,5 @@
 
     <string name="rename">Rename</string>
     <string name="saved_rules">Saved Rules</string>
-    <string name="create_rules">Create Rules</string>
+    <string name="create_rules">Create Rule</string>
 </resources>
