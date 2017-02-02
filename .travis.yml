@@ -1,0 +1,17 @@
+language: android
+
+script: "./gradlew clean check"
+
+android:
+  components:
+      - platform-tools
+      - tools
+      - build-tools-25.0.2
+      - android-25
+      - extra-android-m2repository
+
+notifications:
+  email: false
+
+jdk:
+  - oraclejdk8
