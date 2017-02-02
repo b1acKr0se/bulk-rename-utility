@@ -1,4 +1,4 @@
-package io.b1ackr0se.bulkrenameutility;
+package io.b1ackr0se.bulkrenameutility.ui;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -13,6 +13,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.b1ackr0se.bulkrenameutility.R;
 
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.rename) Button rename;
