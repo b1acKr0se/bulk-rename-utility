@@ -3,6 +3,7 @@ package io.b1ackr0se.bulkrenameutility.ui;
 import android.animation.Animator;
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,12 +14,20 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import io.b1ackr0se.bulkrenameutility.R;
+import io.b1ackr0se.bulkrenameutility.ui.filechooser.FileChooserActivity;
 
 public class MainActivity extends AppCompatActivity {
     @BindView(R.id.rename) Button rename;
     @BindView(R.id.create_rules) Button createRule;
     @BindView(R.id.saved_rules) Button savedRules;
+
+    @OnClick(R.id.rename)
+    public void onRenameClick() {
+        Intent intent = new Intent(this, FileChooserActivity.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        playAnimation();
     }
 
     private void playAnimation() {
@@ -44,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
         AnimatorSet animatorSet = new AnimatorSet();
         animatorSet.playSequentially(animators);
-        animatorSet.setDuration(400);
+        animatorSet.setDuration(300);
         animatorSet.start();
     }
 

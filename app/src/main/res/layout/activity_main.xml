@@ -18,7 +18,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:alpha="0"
             android:text="@string/rename"
             android:theme="@style/WhiteButtonStyle"/>
 
@@ -28,7 +27,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
-            android:alpha="0"
             android:text="@string/create_rules"
             android:theme="@style/WhiteButtonStyle"/>
 
@@ -38,7 +36,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="16dp"
-            android:alpha="0"
             android:text="@string/saved_rules"
             android:theme="@style/WhiteButtonStyle"/>
 

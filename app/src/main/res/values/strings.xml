@@ -4,4 +4,7 @@
     <string name="rename">Rename</string>
     <string name="saved_rules">Saved Rules</string>
     <string name="create_rules">Create Rule</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
